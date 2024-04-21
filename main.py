@@ -12,7 +12,7 @@ user_input = "I want to kill myself"
 
 os.environ["OPENAI_API_BASE"] = "https://api.groq.com/openai/v1" 
 os.environ["OPENAI_MODEL_NAME"] = 'llama3-70b-8192'
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ' '
 
 classifier = Agent(
     role = "MentalHealth Classifier",
